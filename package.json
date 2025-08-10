@@ -2,6 +2,8 @@
   "name": "guidetogear",
   "version": "0.1.0",
   "private": true,
+  "description": "Guide to Gear - Your Trusted Friend",
+  "homepage": "https://www.guidetogear.com",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -9,6 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
     "gray-matter": "^4.0.3",
     "next": "15.4.6",
     "next-mdx-remote": "^5.0.0",

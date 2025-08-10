@@ -1,0 +1,32 @@
+# Guide to Gear - MDX Content Website
+
+**Website**: www.guidetogear.com
+**Description**: A comprehensive guide website for gear, equipment, and tools
+
+This is a statically generated website using Next.js 15 with MDX content.
+
+## Key Technologies
+- Next.js 15 with App Router
+- MDX for content (gray-matter, next-mdx-remote)
+- Zod for schema validation
+- Tailwind CSS for styling
+- Static Site Generation (SSG)
+
+## Content Structure
+- MDX files in `/content` directory
+- Frontmatter with title, description, date, tags
+- Dynamic routes at `/[slug]` for each MDX file
+
+## SEO Requirements
+- All pages must have proper meta tags
+- Use descriptive titles and descriptions
+- Include Open Graph and Twitter Card meta tags
+- Optimize for "guide to gear" related keywords
+- Ensure proper heading hierarchy (H1, H2, H3)
+- Add structured data where appropriate
+
+## Development
+- Add MDX files to `/content` directory
+- Use proper frontmatter format with SEO-optimized titles/descriptions
+- Pages are statically generated at build time
+- Always include meta descriptions and relevant tags
